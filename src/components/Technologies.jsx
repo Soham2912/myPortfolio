@@ -6,7 +6,9 @@ import { RiHtml5Fill } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { RiNodejsLine } from "react-icons/ri";
 import { RiCss3Fill } from "react-icons/ri";
+import { SiMysql } from "react-icons/si";
 import { motion } from "framer-motion";
+
 
 const iconVariate = (duration)=>({
     initial: {y:-10},
@@ -48,6 +50,9 @@ function Technologies() {
             </motion.div>
             <motion.div variants={iconVariate(2.4)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <RiNodejsLine className='text-7xl text-green-600'/>  
+            </motion.div>
+            <motion.div variants={iconVariate(2.4)} initial="initial" animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>
+            <SiMysql className='text-7xl'/>
             </motion.div>
         </motion.div>
         </div>
